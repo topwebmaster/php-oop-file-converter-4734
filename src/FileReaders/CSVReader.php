@@ -7,8 +7,16 @@ use FileConverter\Reader;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
+/**
+ * Class CSVReader
+ * @package FileConverter\FileReaders
+ */
 class CSVReader implements Reader
 {
+    /**
+     * @param \SplFileObject $file
+     * @return array
+     */
     public function read(\SplFileObject $file): array
     {
         $result = [];

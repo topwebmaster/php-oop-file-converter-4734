@@ -5,6 +5,10 @@ namespace FileConverter\FileReaders;
 use FileConverter\Reader;
 
 
+/**
+ * Class JSONReader
+ * @package FileConverter\FileReaders
+ */
 class JSONReader implements Reader
 {
     /**

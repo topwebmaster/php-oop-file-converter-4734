@@ -5,6 +5,10 @@ namespace FileConverter\FileWriters;
 use FileConverter\Writer;
 
 
+/**
+ * Class CSVWriter
+ * @package FileConverter\FileWriters
+ */
 class CSVWriter implements Writer
 {
     /**

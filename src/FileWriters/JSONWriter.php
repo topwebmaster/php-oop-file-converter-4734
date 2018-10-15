@@ -5,6 +5,10 @@ namespace FileConverter\FileWriters;
 use FileConverter\Writer;
 
 
+/**
+ * Class JSONWriter
+ * @package FileConverter\FileWriters
+ */
 class JSONWriter implements Writer
 {
     /**

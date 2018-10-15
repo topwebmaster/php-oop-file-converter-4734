@@ -5,6 +5,10 @@ namespace FileConverter\FileWriters;
 
 use FileConverter\Writer;
 
+/**
+ * Class XMLWriter
+ * @package FileConverter\FileWriters
+ */
 class XMLWriter implements  Writer
 {
     /**

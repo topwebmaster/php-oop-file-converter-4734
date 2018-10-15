@@ -3,6 +3,10 @@
 namespace FileConverter;
 
 
+/**
+ * Interface Reader
+ * @package FileConverter
+ */
 interface Reader
 {
     /**

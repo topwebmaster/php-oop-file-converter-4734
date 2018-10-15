@@ -3,6 +3,10 @@
 namespace FileConverter;
 
 
+/**
+ * Interface Writer
+ * @package FileConverter
+ */
 interface Writer
 {
     /**

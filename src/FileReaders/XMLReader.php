@@ -4,6 +4,10 @@ namespace FileConverter\FileReaders;
 
 use FileConverter\Reader;
 
+/**
+ * Class XMLReader
+ * @package FileConverter\FileReaders
+ */
 class XMLReader implements Reader
 {
 
