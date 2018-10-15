@@ -6,9 +6,10 @@ namespace FileConverter;
 
 class Application
 {
+
     public function run(string $filename, string $outputFormat, string $outputFilePath)
     {
-        $converter = new Converter(/* ??? */);
+        $converter = new Converter();
 
         $file = new \SplFileObject($filename, 'r');
 
